@@ -13,14 +13,12 @@ function Login() {
         <form action="">
           <input type="email" name="email" id="email" placeholder="Email" />
           <input type="password" name="senha" id="senha" placeholder="Senha" />
-
-          <a href=""> Esqueci minha senha</a>
-
+        </form>
+          <a href="#resetsenha"> Esqueci minha senha</a>
           <div>
             <button className={styles.buttonEntrar}> Entrar</button>
             <button className={styles.buttonCriarconta}>Criar contar </button>
           </div>
-        </form>
       </section>
     </main>
   );
