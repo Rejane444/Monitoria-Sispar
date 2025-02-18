@@ -1,8 +1,16 @@
+import {useNavigate} from "react-router-dom";
 import styles from "./Login.module.scss";
 import Logo from "../../assets/Tela Login/logo.png";
+
 function Login() {
+
+  const navigate = useNavigate()
+  const irParaReembolsos = () => {
+    navigate("/reembolsos")  //Redirecionando para a página de reembolsos
+  }
+
   return (
-    <main>
+    <main className={styles.mainLogin}>
       <section className={styles.containerNavio}></section>
 
       <section className={styles.containerFormulario}>
@@ -16,7 +24,7 @@ function Login() {
         </form>
           <a href="#resetsenha"> Esqueci minha senha</a>
           <div>
-            <button className={styles.buttonEntrar}> Entrar</button>
+            <button onClick={irParaReembolsos} className={styles.buttonEntrar}> Entrar</button>
             <button className={styles.buttonCriarconta}>Criar contar </button>
           </div>
       </section>
