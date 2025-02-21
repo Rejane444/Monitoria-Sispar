@@ -19,7 +19,7 @@ function NavBar() {
       </button>
 
       <section>
-        <img src={Perfil} alt="Foto do perfil" />
+        <img src={Perfil} alt="Foto do perfil" className={styles.fotoPerfil}/>
 
         <div>
           <button

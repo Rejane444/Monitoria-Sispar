@@ -24,8 +24,8 @@ function Login() {
         </form>
           <a href="#resetsenha"> Esqueci minha senha</a>
           <div>
-            <button onClick={irParaReembolsos} className={styles.buttonEntrar}> Entrar</button>
-            <button className={styles.buttonCriarconta}>Criar contar </button>
+            <button onClick={irParaReembolsos} className={styles.buttonEntrar}>Entrar</button>
+            <button className={styles.buttonCriarconta}>Criar conta</button>
           </div>
       </section>
     </main>

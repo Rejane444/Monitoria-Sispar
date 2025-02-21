@@ -9,8 +9,12 @@
     //border: solid red;
     width: 5vw;
     height: 5vh;
+    margin-top:10px;
+    img {
+      margin:0 3px;
+    }
     p {
-      font-size: 1rem;
+      font-size: .8rem;
       font-family:"Inter";
     }
   }
@@ -36,7 +40,7 @@
   
   .card {
     width: 31%;
-    height: 20vh;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,7 +52,7 @@
   p {
     font-weight:700;
     font-family:inherit;
-    font-size:1.5rem;
+    font-size:1.1rem;
     margin-top:10px;
   }
   }
@@ -56,7 +60,7 @@
   .containerDados {
     border: 0.8px solid #CBD4E1;
       width: 70%;
-    height: 8vh;
+    height: 60px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -71,44 +75,49 @@
       width: 20%;
       height: 5vh;
     }
-
-    h4{margin:0 6px}
+    p { font-size:.85rem;}
+    h4{ margin:0 6px; font-size:.85rem; }
   }
   
   .imgSolicitados {
     background-color: #00bedd;
+    width:30px;
     padding: 10px;
     border-radius: 6px;
   }
   
   .imgAnalise {
     background-color: #e56700;
+    width:30px;
     padding: 10px;
     border-radius: 6px;
   }
   
   .imgAprovados {
     background-color: #007a6a;
+    width:30px;
     padding: 10px;
     border-radius: 6px;
   }
   
   .imgRejeitados {
     background-color: #a60b2f;
+    width:30px;
     padding: 10px;
     border-radius: 6px;
   }
   
   .containerSistema {
    //border: solid green;
-    width: 14%;
+    width: 100%;
     display: flex;
     justify-content: flex-start;
-    margin-top: 2.5rem;
+    margin-top: 20px;
     align-items: center;
     a {
         text-decoration: none;
         color:#0844C4;
         margin-left:5px;
+        font-size:12px;
     }
   }

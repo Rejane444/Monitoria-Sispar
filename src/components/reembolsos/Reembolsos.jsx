@@ -38,6 +38,7 @@ import NavBar from "../navbar/NavBar.jsx"
               </p>
       
               <section className={styles.containerCards}>
+                
                 <article className={styles.card}>
                   <img src={SolicitarReembolso} alt="" />
                   <p>Solicitar Reembolso</p>

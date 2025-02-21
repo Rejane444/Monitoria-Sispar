@@ -15,6 +15,10 @@
        height: 40vh;
        justify-content: space-between;
        align-items: center;
+
+       .fotoPerfil {
+        width:35px;
+       }
    
        div {
          width: 100%;
@@ -24,17 +28,27 @@
          //border: solid green;
          justify-content: space-evenly;
          align-items: center;
+         
+         button {
+            margin:3px 0;
+         }
        }
      }
    }
    
    button {
      background-color: #0844c4;
-     width: 2vw;
-     height: 4vh;
+     width: 32px;
+     height: 32px;
      border-radius: 6px;
      border: none;
+
+     img {
+      width: 100%;
+      padding:7px
+     }
    }
+
    .buttonSair {
      background-color: #63758d;
    }
